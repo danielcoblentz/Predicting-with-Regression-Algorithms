@@ -106,12 +106,8 @@ There are three main errors (metrics) used to evaluate regression models, Mean a
 | Random Forest Regression  | 0                         | 0                         | 0        |
 
 ### **Observations**
-- **Random Forest Regression** performed the best, achieving the lowest MSE and the highest R² score.
-- **Simple Linear Regression** showed the weakest performance due to its inability to capture non-linear relationships.
 
-<p align="center">
-  <img src="/images/model_performance.png" alt="Model Performance Comparison">
-</p>
-<p align="center">Figure 6: Model Performance Comparison</p>
+
+
 
 ## References
