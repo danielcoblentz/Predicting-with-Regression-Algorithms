@@ -110,4 +110,15 @@ There are three main errors (metrics) used to evaluate regression models, Mean a
 
 
 
+
 ## References
+
+[Stanford Stats 202 course materials](https://web.stanford.edu/class/stats202/notes/Linear-regression/Simple-linear-regression.html)  
+[ResearchGate Random Forest Example](https://www.researchgate.net/publication/350297716/figure/fig5/AS:11431281115895819@1675137747948/An-example-of-a-random-forest-structure-considering-multiple-decision-trees.png)  
+[Decision Tree - GeeksforGeeks](https://www.geeksforgeeks.org/decision-tree/)  
+[Scikit-learn](https://scikit-learn.org/stable/)  
+[Scikit-learn Decision Trees Example](https://scikit-learn.org/1.5/auto_examples/tree/plot_tree_regression.html)  
+[Keras Guide](https://keras.io/guides/)  
+[Multiple Linear Regression - Scribbr](https://www.scribbr.com/statistics/multiple-linear-regression/)  
+[Machine Learning - IBM](https://www.ibm.com/topics/machine-learning)  
+
