@@ -99,15 +99,14 @@ There are three main errors (metrics) used to evaluate regression models, Mean a
 ### Comparative Performance
 | Model                     | Mean Absolute Error (MAE) | Mean Squared Error (MSE) | R² Score  |
 |---------------------------|---------------------------|---------------------------|----------|
-| Simple Linear Regression  | 0                         | 0                         | 0        |
-| Multiple Linear Regression| 0                         | 0                         | 0        |
-| Polynomial Regression     | 0                         | 0                         | 0        |
-| Decision Tree Regression  | 0                         | 0                         | 0        |
-| Random Forest Regression  | 0                         | 0                         | 0        |
+| Simple Linear Regression  | 0.26                      | 0.12                      | 0.37     |
+| Multiple Linear Regression| 0.14                      | 0.4                       | 0.80     |
+| Polynomial Regression     | 0.26                      | 0.12                      | 0.38     |
+| Decision Tree Regression  | 0.16                      | 0.05                      | 0.74     |
+| Random Forest Regression  | 0.13                      | 0.03                      | 0.82     |
 
 ### **Observations**
-
-
+The regression model comparison above shows that Random Forest Regression stands out with an R² Score of 0.82, thereby offering the highest predictive accuracy. Multiple Linear Regression also performs well, reinforcing that model's adept at handling various predictors and complex interactions excel with this type of data. In contrast, Simple Linear Regression and Polynomial Regression struggle with lower R² scores around 0.37, underscoring their limitations for complex datasets. Decision Tree Regression strikes a practical balance, combining effectiveness with model clarity. 
 
 
 
