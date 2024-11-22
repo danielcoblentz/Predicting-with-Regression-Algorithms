@@ -110,7 +110,7 @@ The regression model comparison above shows that Random Forest Regression stands
 
 ## Quick Start Guide
 
-This guide provides instructions to quickly set up and run regression models in either Google Colab or your local environment. Each script is fully compatible with Google Colab notebooks, ensuring straightforward execution.
+This guide provides instructions to quickly set up and run regression models in either Google Colab or your local environment. Each script is fully compatible with Google Colab notebooks.
 
 ### Using Google Colab
 
