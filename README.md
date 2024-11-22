@@ -108,8 +108,40 @@ There are three main errors (metrics) used to evaluate regression models, Mean a
 ### **Observations**
 The regression model comparison above shows that Random Forest Regression stands out with an R² Score of 0.82, thereby offering the highest predictive accuracy. Multiple Linear Regression also performs well, reinforcing that model's adept at handling various predictors and complex interactions excel with this type of data. In contrast, Simple Linear Regression and Polynomial Regression struggle with lower R² scores around 0.37, underscoring their limitations for complex datasets. Decision Tree Regression strikes a practical balance, combining effectiveness with model clarity. 
 
+## Quick Start Guide
+
+This guide provides instructions to quickly set up and run regression models in either Google Colab or your local environment. Each script is fully compatible with Google Colab notebooks, ensuring straightforward execution.
+
+### Using Google Colab
+
+In Google Colab, most necessary packages like `pandas`, `numpy`, `scikit-learn`, and `matplotlib` are pre-installed. If additional packages are required, they can be installed directly at the top of your Colab notebook using:
+
+```bash
+!pip install package_name
+```
+### Running Locally
+
+To run the scripts on your local machine, ensure you have Python installed. Follow these steps to prepare your environment:
+
+#### 1. Clone the Repository
+Clone the repository to your local machine using the following command:
+```bash
+git clone https://github.com/danielcoblentz/Predicting-with-Regression-Algorithms
+```
+#### 2. Activate the virtual environment
+You will need to activate the virtual environment. Note: you must also convert the files from .ipynb to .py as the .ipynb format is only compatible with Jupyter notebook interfaces unless a Jupyter notebook extension is installed.
+
+```
+Windows: .venv\Scripts\Activate
+Mac: source .venv/bin/activate
+```
 
 
+### Execution
+After activating the environment and converting the file type, navigate to the correct folder location and run the script directly in your code editor or terminal:
+```
+python your_script_name.py
+```
 ## References
 
 [Stanford Stats 202 course materials](https://web.stanford.edu/class/stats202/notes/Linear-regression/Simple-linear-regression.html)  
